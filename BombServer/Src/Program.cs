@@ -21,8 +21,8 @@ namespace BombServerEmu_MNR.Src
         static void Main(string[] args)
         {
             Logging.OpenLogFile();
-            Logging.RealLog(typeof(Program), "BombServer  Copyright (C) 2021  derole\n" +
-                "This program comes with ABSOLUTELY NO WARRANTY! This is free software, and you are welcome to redistribute it under certain conditions\n", LogType.Info);
+            Logging.RealLog(typeof(Program), "Dealership  Copyright (C) 2024  H3L\n" +
+                "This program comes with ABSOLUTELY NO WARRANTY! This is free software, and you are welcome to redistribute it under certain conditions\n This software is originally based off of derole1s MNR Server. All Credit to him.\n", LogType.Info);
             CheckArgs(args);
             //SetCipherSuite();
             if (!CheckCerts()) {
